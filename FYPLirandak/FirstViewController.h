@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *userName;
+
+
+@property (strong, nonatomic) IBOutlet UIWebView *recommendedRecipes;
+
+
+
 
 
 @end

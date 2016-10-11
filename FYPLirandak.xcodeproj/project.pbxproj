@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50438DD1C861E5100997FA4 /* SearchByIngredient.m in Sources */ = {isa = PBXBuildFile; fileRef = B50438DC1C861E5100997FA4 /* SearchByIngredient.m */; };
+		B50438E01C86317100997FA4 /* RecipeByIngredient.m in Sources */ = {isa = PBXBuildFile; fileRef = B50438DF1C86317100997FA4 /* RecipeByIngredient.m */; };
+		B50438E31C863A3D00997FA4 /* DatabaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B50438E21C863A3D00997FA4 /* DatabaseConnection.m */; };
+		B50A95841C6BFE82009611A0 /* icon-search-small.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A95831C6BFE82009611A0 /* icon-search-small.png */; };
+		B50A95861C6BFEB1009611A0 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A95851C6BFEB1009611A0 /* home.png */; };
+		B50A95901C6BFF9B009611A0 /* ShoppingList.m in Sources */ = {isa = PBXBuildFile; fileRef = B50A95891C6BFF9B009611A0 /* ShoppingList.m */; };
+		B50A95911C6BFF9B009611A0 /* ShoppingListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B50A958B1C6BFF9B009611A0 /* ShoppingListCell.m */; };
+		B50A95921C6BFF9B009611A0 /* ShoppingListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B50A958D1C6BFF9B009611A0 /* ShoppingListItem.m */; };
+		B50A95931C6BFF9B009611A0 /* ShoppingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50A958F1C6BFF9B009611A0 /* ShoppingListViewController.m */; };
+		B50A95961C6BFFB6009611A0 /* EditItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50A95951C6BFFB6009611A0 /* EditItemViewController.m */; };
+		B50A95981C6C001A009611A0 /* shoppingIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A95971C6C001A009611A0 /* shoppingIcon.png */; };
+		B50A959A1C6C003E009611A0 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A95991C6C003E009611A0 /* plus.png */; };
+		B50BD1CF1C767D99007178A5 /* RecipeInstructions.m in Sources */ = {isa = PBXBuildFile; fileRef = B50BD1CE1C767D99007178A5 /* RecipeInstructions.m */; };
+		B51004C41CC53EAF005A95D0 /* ChosenRecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = B51004C31CC53EAF005A95D0 /* ChosenRecipes.m */; };
+		B514F9DD1CC4525900222D7D /* fork.png in Resources */ = {isa = PBXBuildFile; fileRef = B514F9DC1CC4525900222D7D /* fork.png */; };
+		B514F9DF1CC4571A00222D7D /* searchRecipeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B514F9DE1CC4571A00222D7D /* searchRecipeicon.png */; };
+		B514F9E11CC457C200222D7D /* appIcon12.png in Resources */ = {isa = PBXBuildFile; fileRef = B514F9E01CC457C200222D7D /* appIcon12.png */; };
+		B52103561C7CFCCD00FA4C15 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B52103551C7CFCCD00FA4C15 /* libsqlite3.tbd */; };
+		B533C5C41C7EF42500DB162A /* fridge.sql in Resources */ = {isa = PBXBuildFile; fileRef = B533C5C31C7EF42500DB162A /* fridge.sql */; };
+		B5537DA51C7E3AE400E2BCF8 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B5537DA41C7E3AE400E2BCF8 /* User.m */; };
+		B5537DAF1C7E689600E2BCF8 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B5537DAE1C7E689600E2BCF8 /* libsqlite3.0.tbd */; };
+		B595B3C41CBACBBA00D99C21 /* TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B595B3C31CBACBBA00D99C21 /* TargetViewController.m */; };
+		B59AE1261C7A8EA700BB6708 /* searchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B59AE1251C7A8EA700BB6708 /* searchIcon.png */; };
+		B59AE1281C7A8F0D00BB6708 /* search-32.ico in Resources */ = {isa = PBXBuildFile; fileRef = B59AE1271C7A8F0D00BB6708 /* search-32.ico */; };
+		B59AE12A1C7A8F5300BB6708 /* searchIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = B59AE1291C7A8F5300BB6708 /* searchIcon2.png */; };
+		B59AE12C1C7A900200BB6708 /* list.ico in Resources */ = {isa = PBXBuildFile; fileRef = B59AE12B1C7A900200BB6708 /* list.ico */; };
+		B5B049511CCC2D94003E00C9 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B049501CCC2D94003E00C9 /* iTunesArtwork.png */; };
+		B5BC47C91CB9A3B8008F8553 /* CreateUserFridgeDB.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC47C81CB9A3B8008F8553 /* CreateUserFridgeDB.m */; };
 		B5BF84AB1C6BFBAC005CF039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BF84AA1C6BFBAC005CF039 /* main.m */; };
 		B5BF84AE1C6BFBAC005CF039 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BF84AD1C6BFBAC005CF039 /* AppDelegate.m */; };
 		B5BF84B11C6BFBAC005CF039 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BF84B01C6BFBAC005CF039 /* FirstViewController.m */; };
@@ -16,6 +44,25 @@
 		B5BF84BC1C6BFBAC005CF039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BF84BA1C6BFBAC005CF039 /* LaunchScreen.storyboard */; };
 		B5BF84C71C6BFBAC005CF039 /* FYPLirandakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BF84C61C6BFBAC005CF039 /* FYPLirandakTests.m */; };
 		B5BF84D21C6BFBAC005CF039 /* FYPLirandakUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BF84D11C6BFBAC005CF039 /* FYPLirandakUITests.m */; };
+		B5BF84E21C6BFC89005CF039 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BF84E11C6BFC89005CF039 /* RequestManager.m */; };
+		B5BF84EB1C6BFCAB005CF039 /* RecipeDetailReplaceSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BF84E41C6BFCAB005CF039 /* RecipeDetailReplaceSegue.m */; };
+		B5BF84EC1C6BFCAB005CF039 /* RecipeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BF84E61C6BFCAB005CF039 /* RecipeObject.m */; };
+		B5BF84ED1C6BFCAB005CF039 /* RecipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BF84E81C6BFCAB005CF039 /* RecipeTableViewCell.m */; };
+		B5BF84EE1C6BFCAB005CF039 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BF84EA1C6BFCAB005CF039 /* SearchViewController.m */; };
+		B5BF84F11C6BFCCF005CF039 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BF84F01C6BFCCF005CF039 /* RecipeDetailViewController.m */; };
+		B5CE96F11C7BC6FD00356DD4 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CE96F01C7BC6FD00356DD4 /* backButton.png */; };
+		B5CE96F41C7BCD0600356DD4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CE96F31C7BCD0600356DD4 /* WebViewController.m */; };
+		B5E333141CD52C850091B6B0 /* DisplayIngridientsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E333131CD52C850091B6B0 /* DisplayIngridientsController.m */; };
+		B5EE8B8C1CD814C9003CA266 /* recipe.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B5FB78D51CD7EF500022272C /* recipe.sqlite */; };
+		B5EE8B9A1CD82151003CA266 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE8B8F1CD82151003CA266 /* FMDatabase.m */; };
+		B5EE8B9B1CD82151003CA266 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE8B911CD82151003CA266 /* FMDatabaseAdditions.m */; };
+		B5EE8B9C1CD82151003CA266 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE8B931CD82151003CA266 /* FMDatabasePool.m */; };
+		B5EE8B9D1CD82151003CA266 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE8B951CD82151003CA266 /* FMDatabaseQueue.m */; };
+		B5EE8B9E1CD82151003CA266 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE8B981CD82151003CA266 /* FMResultSet.m */; };
+		B5EE8B9F1CD82151003CA266 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5EE8B991CD82151003CA266 /* Info.plist */; };
+		B5EF04931CC63E0800EB38EF /* ListOfRecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EF04921CC63E0800EB38EF /* ListOfRecipesViewController.m */; };
+		B5FAF8C71C87A4EE00B4761B /* default_profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5FAF8C61C87A4EE00B4761B /* default_profile.jpg */; };
+		B5FB78D81CD7EF7C0022272C /* UsersFridge.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B5FB78D71CD7EF7C0022272C /* UsersFridge.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +83,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B50438DB1C861E5100997FA4 /* SearchByIngredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchByIngredient.h; sourceTree = "<group>"; };
+		B50438DC1C861E5100997FA4 /* SearchByIngredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchByIngredient.m; sourceTree = "<group>"; };
+		B50438DE1C86317100997FA4 /* RecipeByIngredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeByIngredient.h; sourceTree = "<group>"; };
+		B50438DF1C86317100997FA4 /* RecipeByIngredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeByIngredient.m; sourceTree = "<group>"; };
+		B50438E11C863A3D00997FA4 /* DatabaseConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseConnection.h; sourceTree = "<group>"; };
+		B50438E21C863A3D00997FA4 /* DatabaseConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseConnection.m; sourceTree = "<group>"; };
+		B50A95831C6BFE82009611A0 /* icon-search-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-search-small.png"; sourceTree = "<group>"; };
+		B50A95851C6BFEB1009611A0 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		B50A95881C6BFF9B009611A0 /* ShoppingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingList.h; sourceTree = "<group>"; };
+		B50A95891C6BFF9B009611A0 /* ShoppingList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingList.m; sourceTree = "<group>"; };
+		B50A958A1C6BFF9B009611A0 /* ShoppingListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListCell.h; sourceTree = "<group>"; };
+		B50A958B1C6BFF9B009611A0 /* ShoppingListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListCell.m; sourceTree = "<group>"; };
+		B50A958C1C6BFF9B009611A0 /* ShoppingListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListItem.h; sourceTree = "<group>"; };
+		B50A958D1C6BFF9B009611A0 /* ShoppingListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListItem.m; sourceTree = "<group>"; };
+		B50A958E1C6BFF9B009611A0 /* ShoppingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListViewController.h; sourceTree = "<group>"; };
+		B50A958F1C6BFF9B009611A0 /* ShoppingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListViewController.m; sourceTree = "<group>"; };
+		B50A95941C6BFFB6009611A0 /* EditItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditItemViewController.h; sourceTree = "<group>"; };
+		B50A95951C6BFFB6009611A0 /* EditItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditItemViewController.m; sourceTree = "<group>"; };
+		B50A95971C6C001A009611A0 /* shoppingIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoppingIcon.png; sourceTree = "<group>"; };
+		B50A95991C6C003E009611A0 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		B50BD1CD1C767D99007178A5 /* RecipeInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeInstructions.h; sourceTree = "<group>"; };
+		B50BD1CE1C767D99007178A5 /* RecipeInstructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeInstructions.m; sourceTree = "<group>"; };
+		B51004C21CC53EAF005A95D0 /* ChosenRecipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChosenRecipes.h; sourceTree = "<group>"; };
+		B51004C31CC53EAF005A95D0 /* ChosenRecipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChosenRecipes.m; sourceTree = "<group>"; };
+		B514F9DC1CC4525900222D7D /* fork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fork.png; sourceTree = "<group>"; };
+		B514F9DE1CC4571A00222D7D /* searchRecipeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRecipeicon.png; sourceTree = "<group>"; };
+		B514F9E01CC457C200222D7D /* appIcon12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon12.png; sourceTree = "<group>"; };
+		B52103551C7CFCCD00FA4C15 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B533C5C31C7EF42500DB162A /* fridge.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fridge.sql; path = "../../fridge-database-master/fridge.sql"; sourceTree = "<group>"; };
+		B5537DA31C7E3AE400E2BCF8 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B5537DA41C7E3AE400E2BCF8 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		B5537DAE1C7E689600E2BCF8 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B595B3C21CBACBBA00D99C21 /* TargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetViewController.h; sourceTree = "<group>"; };
+		B595B3C31CBACBBA00D99C21 /* TargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetViewController.m; sourceTree = "<group>"; };
+		B59AE1251C7A8EA700BB6708 /* searchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchIcon.png; sourceTree = "<group>"; };
+		B59AE1271C7A8F0D00BB6708 /* search-32.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "search-32.ico"; sourceTree = "<group>"; };
+		B59AE1291C7A8F5300BB6708 /* searchIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchIcon2.png; sourceTree = "<group>"; };
+		B59AE12B1C7A900200BB6708 /* list.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = list.ico; sourceTree = "<group>"; };
+		B5B049501CCC2D94003E00C9 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		B5BC47C71CB9A3B8008F8553 /* CreateUserFridgeDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateUserFridgeDB.h; sourceTree = "<group>"; };
+		B5BC47C81CB9A3B8008F8553 /* CreateUserFridgeDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateUserFridgeDB.m; sourceTree = "<group>"; };
 		B5BF84A61C6BFBAC005CF039 /* FYPLirandak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYPLirandak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BF84AA1C6BFBAC005CF039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5BF84AC1C6BFBAC005CF039 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +142,40 @@
 		B5BF84CD1C6BFBAC005CF039 /* FYPLirandakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYPLirandakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BF84D11C6BFBAC005CF039 /* FYPLirandakUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPLirandakUITests.m; sourceTree = "<group>"; };
 		B5BF84D31C6BFBAC005CF039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5BF84E01C6BFC89005CF039 /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		B5BF84E11C6BFC89005CF039 /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		B5BF84E31C6BFCAB005CF039 /* RecipeDetailReplaceSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailReplaceSegue.h; sourceTree = "<group>"; };
+		B5BF84E41C6BFCAB005CF039 /* RecipeDetailReplaceSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailReplaceSegue.m; sourceTree = "<group>"; };
+		B5BF84E51C6BFCAB005CF039 /* RecipeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeObject.h; sourceTree = "<group>"; };
+		B5BF84E61C6BFCAB005CF039 /* RecipeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeObject.m; sourceTree = "<group>"; };
+		B5BF84E71C6BFCAB005CF039 /* RecipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeTableViewCell.h; sourceTree = "<group>"; };
+		B5BF84E81C6BFCAB005CF039 /* RecipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTableViewCell.m; sourceTree = "<group>"; };
+		B5BF84E91C6BFCAB005CF039 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		B5BF84EA1C6BFCAB005CF039 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		B5BF84EF1C6BFCCF005CF039 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		B5BF84F01C6BFCCF005CF039 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		B5CE96F01C7BC6FD00356DD4 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		B5CE96F21C7BCD0600356DD4 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		B5CE96F31C7BCD0600356DD4 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		B5E333121CD52C850091B6B0 /* DisplayIngridientsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayIngridientsController.h; sourceTree = "<group>"; };
+		B5E333131CD52C850091B6B0 /* DisplayIngridientsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayIngridientsController.m; sourceTree = "<group>"; };
+		B5EE8B8E1CD82151003CA266 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		B5EE8B8F1CD82151003CA266 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		B5EE8B901CD82151003CA266 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		B5EE8B911CD82151003CA266 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B5EE8B921CD82151003CA266 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		B5EE8B931CD82151003CA266 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		B5EE8B941CD82151003CA266 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B5EE8B951CD82151003CA266 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B5EE8B961CD82151003CA266 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		B5EE8B971CD82151003CA266 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		B5EE8B981CD82151003CA266 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		B5EE8B991CD82151003CA266 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EF04911CC63E0800EB38EF /* ListOfRecipesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfRecipesViewController.h; sourceTree = "<group>"; };
+		B5EF04921CC63E0800EB38EF /* ListOfRecipesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfRecipesViewController.m; sourceTree = "<group>"; };
+		B5FAF8C61C87A4EE00B4761B /* default_profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default_profile.jpg; sourceTree = "<group>"; };
+		B5FB78D51CD7EF500022272C /* recipe.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = recipe.sqlite; sourceTree = "<group>"; };
+		B5FB78D71CD7EF7C0022272C /* UsersFridge.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = UsersFridge.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +183,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5537DAF1C7E689600E2BCF8 /* libsqlite3.0.tbd in Frameworks */,
+				B52103561C7CFCCD00FA4C15 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +205,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B50438DA1C861DF900997FA4 /* SearchByIngredient */ = {
+			isa = PBXGroup;
+			children = (
+				B50438DB1C861E5100997FA4 /* SearchByIngredient.h */,
+				B50438DC1C861E5100997FA4 /* SearchByIngredient.m */,
+			);
+			name = SearchByIngredient;
+			sourceTree = "<group>";
+		};
+		B50A95871C6BFF75009611A0 /* Shopping List */ = {
+			isa = PBXGroup;
+			children = (
+				B50A95941C6BFFB6009611A0 /* EditItemViewController.h */,
+				B50A95951C6BFFB6009611A0 /* EditItemViewController.m */,
+				B50A95881C6BFF9B009611A0 /* ShoppingList.h */,
+				B50A95891C6BFF9B009611A0 /* ShoppingList.m */,
+				B50A958A1C6BFF9B009611A0 /* ShoppingListCell.h */,
+				B50A958B1C6BFF9B009611A0 /* ShoppingListCell.m */,
+				B50A958C1C6BFF9B009611A0 /* ShoppingListItem.h */,
+				B50A958D1C6BFF9B009611A0 /* ShoppingListItem.m */,
+				B50A958E1C6BFF9B009611A0 /* ShoppingListViewController.h */,
+				B50A958F1C6BFF9B009611A0 /* ShoppingListViewController.m */,
+			);
+			name = "Shopping List";
+			sourceTree = "<group>";
+		};
+		B52103531C7CFAE400FA4C15 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5BF84B31C6BFBAC005CF039 /* SecondViewController.m */,
+				B5BF84B21C6BFBAC005CF039 /* SecondViewController.h */,
+				B5BF84E91C6BFCAB005CF039 /* SearchViewController.h */,
+				B5BF84AF1C6BFBAC005CF039 /* FirstViewController.h */,
+				B5BF84B01C6BFBAC005CF039 /* FirstViewController.m */,
+				B5BF84EF1C6BFCCF005CF039 /* RecipeDetailViewController.h */,
+				B5BF84EA1C6BFCAB005CF039 /* SearchViewController.m */,
+				B5CE96F21C7BCD0600356DD4 /* WebViewController.h */,
+				B5CE96F31C7BCD0600356DD4 /* WebViewController.m */,
+				B5BF84F01C6BFCCF005CF039 /* RecipeDetailViewController.m */,
+				B51004C21CC53EAF005A95D0 /* ChosenRecipes.h */,
+				B51004C31CC53EAF005A95D0 /* ChosenRecipes.m */,
+				B5EF04911CC63E0800EB38EF /* ListOfRecipesViewController.h */,
+				B5EF04921CC63E0800EB38EF /* ListOfRecipesViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		B52103541C7CFB1200FA4C15 /* Connect to API */ = {
+			isa = PBXGroup;
+			children = (
+				B5BF84E11C6BFC89005CF039 /* RequestManager.m */,
+				B5BF84E01C6BFC89005CF039 /* RequestManager.h */,
+			);
+			name = "Connect to API";
+			sourceTree = "<group>";
+		};
+		B52103571C7CFCFF00FA4C15 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				B5537DAE1C7E689600E2BCF8 /* libsqlite3.0.tbd */,
+				B52103551C7CFCCD00FA4C15 /* libsqlite3.tbd */,
+				B533C5C31C7EF42500DB162A /* fridge.sql */,
+				B50438E11C863A3D00997FA4 /* DatabaseConnection.h */,
+				B50438E21C863A3D00997FA4 /* DatabaseConnection.m */,
+				B5BC47C71CB9A3B8008F8553 /* CreateUserFridgeDB.h */,
+				B5BC47C81CB9A3B8008F8553 /* CreateUserFridgeDB.m */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		B5537DA21C7E3A7A00E2BCF8 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				B5537DA31C7E3AE400E2BCF8 /* User.h */,
+				B5537DA41C7E3AE400E2BCF8 /* User.m */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
 		B5BF849D1C6BFBAC005CF039 = {
 			isa = PBXGroup;
 			children = (
+				B5EE8B8D1CD82151003CA266 /* fmdb */,
+				B5FB78D71CD7EF7C0022272C /* UsersFridge.sqlite */,
+				B5FB78D51CD7EF500022272C /* recipe.sqlite */,
 				B5BF84A81C6BFBAC005CF039 /* FYPLirandak */,
 				B5BF84C51C6BFBAC005CF039 /* FYPLirandakTests */,
 				B5BF84D01C6BFBAC005CF039 /* FYPLirandakUITests */,
@@ -104,12 +310,15 @@
 		B5BF84A81C6BFBAC005CF039 /* FYPLirandak */ = {
 			isa = PBXGroup;
 			children = (
+				B50438DA1C861DF900997FA4 /* SearchByIngredient */,
+				B5537DA21C7E3A7A00E2BCF8 /* Users */,
+				B52103571C7CFCFF00FA4C15 /* DB */,
+				B52103541C7CFB1200FA4C15 /* Connect to API */,
+				B52103531C7CFAE400FA4C15 /* View Controller */,
+				B50A95871C6BFF75009611A0 /* Shopping List */,
+				B5BF84DF1C6BFC70005CF039 /* Classes */,
 				B5BF84AC1C6BFBAC005CF039 /* AppDelegate.h */,
 				B5BF84AD1C6BFBAC005CF039 /* AppDelegate.m */,
-				B5BF84AF1C6BFBAC005CF039 /* FirstViewController.h */,
-				B5BF84B01C6BFBAC005CF039 /* FirstViewController.m */,
-				B5BF84B21C6BFBAC005CF039 /* SecondViewController.h */,
-				B5BF84B31C6BFBAC005CF039 /* SecondViewController.m */,
 				B5BF84B51C6BFBAC005CF039 /* Main.storyboard */,
 				B5BF84B81C6BFBAC005CF039 /* Assets.xcassets */,
 				B5BF84BA1C6BFBAC005CF039 /* LaunchScreen.storyboard */,
@@ -122,6 +331,20 @@
 		B5BF84A91C6BFBAC005CF039 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B5FAF8C61C87A4EE00B4761B /* default_profile.jpg */,
+				B50A95971C6C001A009611A0 /* shoppingIcon.png */,
+				B50A95851C6BFEB1009611A0 /* home.png */,
+				B59AE1271C7A8F0D00BB6708 /* search-32.ico */,
+				B5CE96F01C7BC6FD00356DD4 /* backButton.png */,
+				B59AE1291C7A8F5300BB6708 /* searchIcon2.png */,
+				B50A95991C6C003E009611A0 /* plus.png */,
+				B59AE12B1C7A900200BB6708 /* list.ico */,
+				B514F9DC1CC4525900222D7D /* fork.png */,
+				B514F9E01CC457C200222D7D /* appIcon12.png */,
+				B5B049501CCC2D94003E00C9 /* iTunesArtwork.png */,
+				B514F9DE1CC4571A00222D7D /* searchRecipeicon.png */,
+				B59AE1251C7A8EA700BB6708 /* searchIcon.png */,
+				B50A95831C6BFE82009611A0 /* icon-search-small.png */,
 				B5BF84AA1C6BFBAC005CF039 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +366,46 @@
 				B5BF84D31C6BFBAC005CF039 /* Info.plist */,
 			);
 			path = FYPLirandakUITests;
+			sourceTree = "<group>";
+		};
+		B5BF84DF1C6BFC70005CF039 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B50BD1CD1C767D99007178A5 /* RecipeInstructions.h */,
+				B50BD1CE1C767D99007178A5 /* RecipeInstructions.m */,
+				B5BF84E51C6BFCAB005CF039 /* RecipeObject.h */,
+				B5BF84E61C6BFCAB005CF039 /* RecipeObject.m */,
+				B5BF84E31C6BFCAB005CF039 /* RecipeDetailReplaceSegue.h */,
+				B5BF84E41C6BFCAB005CF039 /* RecipeDetailReplaceSegue.m */,
+				B5BF84E71C6BFCAB005CF039 /* RecipeTableViewCell.h */,
+				B5BF84E81C6BFCAB005CF039 /* RecipeTableViewCell.m */,
+				B50438DE1C86317100997FA4 /* RecipeByIngredient.h */,
+				B50438DF1C86317100997FA4 /* RecipeByIngredient.m */,
+				B595B3C21CBACBBA00D99C21 /* TargetViewController.h */,
+				B595B3C31CBACBBA00D99C21 /* TargetViewController.m */,
+				B5E333121CD52C850091B6B0 /* DisplayIngridientsController.h */,
+				B5E333131CD52C850091B6B0 /* DisplayIngridientsController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B5EE8B8D1CD82151003CA266 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE8B8E1CD82151003CA266 /* FMDatabase.h */,
+				B5EE8B8F1CD82151003CA266 /* FMDatabase.m */,
+				B5EE8B901CD82151003CA266 /* FMDatabaseAdditions.h */,
+				B5EE8B911CD82151003CA266 /* FMDatabaseAdditions.m */,
+				B5EE8B921CD82151003CA266 /* FMDatabasePool.h */,
+				B5EE8B931CD82151003CA266 /* FMDatabasePool.m */,
+				B5EE8B941CD82151003CA266 /* FMDatabaseQueue.h */,
+				B5EE8B951CD82151003CA266 /* FMDatabaseQueue.m */,
+				B5EE8B961CD82151003CA266 /* FMDB.h */,
+				B5EE8B971CD82151003CA266 /* FMResultSet.h */,
+				B5EE8B981CD82151003CA266 /* FMResultSet.m */,
+				B5EE8B991CD82151003CA266 /* Info.plist */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +475,7 @@
 				TargetAttributes = {
 					B5BF84A51C6BFBAC005CF039 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Y43YGD4RQK;
 					};
 					B5BF84C11C6BFBAC005CF039 = {
 						CreatedOnToolsVersion = 7.1;
@@ -248,9 +512,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EE8B8C1CD814C9003CA266 /* recipe.sqlite in Resources */,
+				B5FB78D81CD7EF7C0022272C /* UsersFridge.sqlite in Resources */,
+				B59AE12C1C7A900200BB6708 /* list.ico in Resources */,
+				B59AE1261C7A8EA700BB6708 /* searchIcon.png in Resources */,
 				B5BF84BC1C6BFBAC005CF039 /* LaunchScreen.storyboard in Resources */,
+				B50A95861C6BFEB1009611A0 /* home.png in Resources */,
+				B59AE12A1C7A8F5300BB6708 /* searchIcon2.png in Resources */,
 				B5BF84B91C6BFBAC005CF039 /* Assets.xcassets in Resources */,
+				B5B049511CCC2D94003E00C9 /* iTunesArtwork.png in Resources */,
+				B50A95841C6BFE82009611A0 /* icon-search-small.png in Resources */,
+				B514F9E11CC457C200222D7D /* appIcon12.png in Resources */,
+				B50A95981C6C001A009611A0 /* shoppingIcon.png in Resources */,
+				B59AE1281C7A8F0D00BB6708 /* search-32.ico in Resources */,
+				B50A959A1C6C003E009611A0 /* plus.png in Resources */,
+				B5CE96F11C7BC6FD00356DD4 /* backButton.png in Resources */,
+				B514F9DD1CC4525900222D7D /* fork.png in Resources */,
+				B5FAF8C71C87A4EE00B4761B /* default_profile.jpg in Resources */,
+				B533C5C41C7EF42500DB162A /* fridge.sql in Resources */,
+				B514F9DF1CC4571A00222D7D /* searchRecipeicon.png in Resources */,
 				B5BF84B71C6BFBAC005CF039 /* Main.storyboard in Resources */,
+				B5EE8B9F1CD82151003CA266 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +557,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50438DD1C861E5100997FA4 /* SearchByIngredient.m in Sources */,
+				B5537DA51C7E3AE400E2BCF8 /* User.m in Sources */,
+				B50A95931C6BFF9B009611A0 /* ShoppingListViewController.m in Sources */,
+				B50A95961C6BFFB6009611A0 /* EditItemViewController.m in Sources */,
+				B5EE8B9C1CD82151003CA266 /* FMDatabasePool.m in Sources */,
+				B5EE8B9D1CD82151003CA266 /* FMDatabaseQueue.m in Sources */,
+				B50A95921C6BFF9B009611A0 /* ShoppingListItem.m in Sources */,
+				B595B3C41CBACBBA00D99C21 /* TargetViewController.m in Sources */,
+				B5BF84EC1C6BFCAB005CF039 /* RecipeObject.m in Sources */,
+				B5BF84E21C6BFC89005CF039 /* RequestManager.m in Sources */,
+				B5EF04931CC63E0800EB38EF /* ListOfRecipesViewController.m in Sources */,
+				B5EE8B9E1CD82151003CA266 /* FMResultSet.m in Sources */,
 				B5BF84B41C6BFBAC005CF039 /* SecondViewController.m in Sources */,
+				B5BF84ED1C6BFCAB005CF039 /* RecipeTableViewCell.m in Sources */,
+				B50A95901C6BFF9B009611A0 /* ShoppingList.m in Sources */,
+				B5EE8B9A1CD82151003CA266 /* FMDatabase.m in Sources */,
+				B50438E01C86317100997FA4 /* RecipeByIngredient.m in Sources */,
+				B5E333141CD52C850091B6B0 /* DisplayIngridientsController.m in Sources */,
+				B5BC47C91CB9A3B8008F8553 /* CreateUserFridgeDB.m in Sources */,
+				B51004C41CC53EAF005A95D0 /* ChosenRecipes.m in Sources */,
+				B5BF84EE1C6BFCAB005CF039 /* SearchViewController.m in Sources */,
 				B5BF84AE1C6BFBAC005CF039 /* AppDelegate.m in Sources */,
+				B5EE8B9B1CD82151003CA266 /* FMDatabaseAdditions.m in Sources */,
+				B5BF84EB1C6BFCAB005CF039 /* RecipeDetailReplaceSegue.m in Sources */,
+				B50438E31C863A3D00997FA4 /* DatabaseConnection.m in Sources */,
 				B5BF84B11C6BFBAC005CF039 /* FirstViewController.m in Sources */,
+				B5CE96F41C7BCD0600356DD4 /* WebViewController.m in Sources */,
+				B50BD1CF1C767D99007178A5 /* RecipeInstructions.m in Sources */,
+				B50A95911C6BFF9B009611A0 /* ShoppingListCell.m in Sources */,
 				B5BF84AB1C6BFBAC005CF039 /* main.m in Sources */,
+				B5BF84F11C6BFCCF005CF039 /* RecipeDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,10 +728,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FYPLirandak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FYP.FYPLirandak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -430,10 +744,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FYPLirandak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FYP.FYPLirandak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -504,6 +823,7 @@
 				B5BF84D81C6BFBAC005CF039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5BF84D91C6BFBAC005CF039 /* Build configuration list for PBXNativeTarget "FYPLirandakTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +832,7 @@
 				B5BF84DB1C6BFBAC005CF039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5BF84DC1C6BFBAC005CF039 /* Build configuration list for PBXNativeTarget "FYPLirandakUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +841,7 @@
 				B5BF84DE1C6BFBAC005CF039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
